@@ -1,116 +1,267 @@
-/*
-object-assign
-(c) Sindre Sorhus
-@license MIT
-*/
+/*!**********************!*\
+  !*** ./src/index.js ***!
+  \**********************/
 
-/*!
+/*!***********************!*\
+  !*** ./src/style.css ***!
+  \***********************/
 
-JSZip v3.5.0 - A JavaScript class for generating and reading zip files
-<http://stuartk.com/jszip>
+/*!*******************************!*\
+  !*** ./src/components/App.js ***!
+  \*******************************/
 
-(c) 2009-2016 Stuart Knightley <stuart [at] stuartk.com>
-Dual licenced under the MIT license or GPLv3. See https://raw.github.com/Stuk/jszip/master/LICENSE.markdown.
+/*!*********************************!*\
+  !*** ./node_modules/url/url.js ***!
+  \*********************************/
 
-JSZip uses the library pako released under the MIT license :
-https://github.com/nodeca/pako/blob/master/LICENSE
-*/
+/*!*********************************!*\
+  !*** ./src/components/Ruter.js ***!
+  \*********************************/
 
-/*!
+/*!**********************************!*\
+  !*** ./node_modules/url/util.js ***!
+  \**********************************/
 
-JSZip v3.6.0 - A JavaScript class for generating and reading zip files
-<http://stuartk.com/jszip>
+/*!************************************!*\
+  !*** ./src/components/Homepage.js ***!
+  \************************************/
 
-(c) 2009-2016 Stuart Knightley <stuart [at] stuartk.com>
-Dual licenced under the MIT license or GPLv3. See https://raw.github.com/Stuk/jszip/master/LICENSE.markdown.
+/*!************************************!*\
+  !*** ./src/components/NotFound.js ***!
+  \************************************/
 
-JSZip uses the library pako released under the MIT license :
-https://github.com/nodeca/pako/blob/master/LICENSE
-*/
+/*!*************************************!*\
+  !*** ./node_modules/react/index.js ***!
+  \*************************************/
 
-/*!
- Transformation Matrix v2.0
- (c) Epistemex 2014-2015
- www.epistemex.com
- By Ken Fyrstenberg
- Contributions by leeoniya.
- License: MIT, header required.
- */
+/*!***************************************!*\
+  !*** ./node_modules/events/events.js ***!
+  \***************************************/
 
-/*! *****************************************************************************
-Copyright (c) Microsoft Corporation.
+/*!***************************************!*\
+  !*** ./node_modules/history/index.js ***!
+  \***************************************/
 
-Permission to use, copy, modify, and/or distribute this software for any
-purpose with or without fee is hereby granted.
+/*!*****************************************!*\
+  !*** ./node_modules/react-dom/index.js ***!
+  \*****************************************/
 
-THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
-REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
-AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
-INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
-LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
-OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
-PERFORMANCE OF THIS SOFTWARE.
-***************************************************************************** */
+/*!*****************************************!*\
+  !*** ./node_modules/scheduler/index.js ***!
+  \*****************************************/
 
-/**
- * @license
- * Copyright (c) 2017 The Polymer Project Authors. All rights reserved.
- * This code may only be used under the BSD style license found at
- * http://polymer.github.io/LICENSE.txt
- * The complete set of authors may be found at
- * http://polymer.github.io/AUTHORS.txt
- * The complete set of contributors may be found at
- * http://polymer.github.io/CONTRIBUTORS.txt
- * Code distributed by Google as part of the polymer project is also
- * subject to an additional IP rights grant found at
- * http://polymer.github.io/PATENTS.txt
- */
+/*!*****************************************!*\
+  !*** ./node_modules/webpack/hot/log.js ***!
+  \*****************************************/
 
-/**
- * React Router v6.0.2
- *
- * Copyright (c) Remix Software Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE.md file in the root directory of this source tree.
- *
- * @license MIT
- */
+/*!*******************************************!*\
+  !*** ./node_modules/querystring/index.js ***!
+  \*******************************************/
 
-/**
-@license
-Copyright (c) 2019 The Polymer Project Authors. All rights reserved.
-This code may only be used under the BSD style license found at
-http://polymer.github.io/LICENSE.txt The complete set of authors may be found at
-http://polymer.github.io/AUTHORS.txt The complete set of contributors may be
-found at http://polymer.github.io/CONTRIBUTORS.txt Code distributed by Google as
-part of the polymer project is also subject to an additional IP rights grant
-found at http://polymer.github.io/PATENTS.txt
-*/
+/*!*******************************************!*\
+  !*** ./node_modules/scheduler/tracing.js ***!
+  \*******************************************/
 
-/** @license React v0.20.2
- * scheduler.production.min.js
- *
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */
+/*!********************************************!*\
+  !*** ./node_modules/querystring/decode.js ***!
+  \********************************************/
 
-/** @license React v17.0.2
- * react-dom.production.min.js
- *
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */
+/*!********************************************!*\
+  !*** ./node_modules/querystring/encode.js ***!
+  \********************************************/
 
-/** @license React v17.0.2
- * react.production.min.js
- *
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */
+/*!********************************************!*\
+  !*** ./node_modules/react-router/index.js ***!
+  \********************************************/
+
+/*!*********************************************!*\
+  !*** ./node_modules/object-assign/index.js ***!
+  \*********************************************/
+
+/*!*********************************************!*\
+  !*** ./node_modules/webpack/hot/emitter.js ***!
+  \*********************************************/
+
+/*!************************************************!*\
+  !*** ./node_modules/react-router-dom/index.js ***!
+  \************************************************/
+
+/*!************************************************!*\
+  !*** ./node_modules/webpack/hot/dev-server.js ***!
+  \************************************************/
+
+/*!*************************************************!*\
+  !*** ./node_modules/html-entities/lib/index.js ***!
+  \*************************************************/
+
+/*!***************************************************!*\
+  !*** ./node_modules/ansi-html-community/index.js ***!
+  \***************************************************/
+
+/*!*****************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/api.js ***!
+  \*****************************************************/
+
+/*!*****************************************************!*\
+  !*** ./node_modules/react/cjs/react.development.js ***!
+  \*****************************************************/
+
+/*!******************************************************!*\
+  !*** ./node_modules/webpack/hot/log-apply-result.js ***!
+  \******************************************************/
+
+/*!********************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/getUrl.js ***!
+  \********************************************************/
+
+/*!**********************************************************!*\
+  !*** ./node_modules/webpack-dev-server/client/socket.js ***!
+  \**********************************************************/
+
+/*!***********************************************************!*\
+  !*** ./node_modules/html-entities/lib/surrogate-pairs.js ***!
+  \***********************************************************/
+
+/*!***********************************************************!*\
+  !*** ./node_modules/webpack-dev-server/client/overlay.js ***!
+  \***********************************************************/
+
+/*!************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/extends.js ***!
+  \************************************************************/
+
+/*!************************************************************!*\
+  !*** ./node_modules/html-entities/lib/named-references.js ***!
+  \************************************************************/
+
+/*!************************************************************!*\
+  !*** ./node_modules/url/node_modules/punycode/punycode.js ***!
+  \************************************************************/
+
+/*!*************************************************************!*\
+  !*** ./node_modules/react-dom/cjs/react-dom.development.js ***!
+  \*************************************************************/
+
+/*!*************************************************************!*\
+  !*** ./node_modules/scheduler/cjs/scheduler.development.js ***!
+  \*************************************************************/
+
+/*!*************************************************************!*\
+  !*** ./node_modules/webpack-dev-server/client/utils/log.js ***!
+  \*************************************************************/
+
+/*!**************************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/noSourceMaps.js ***!
+  \**************************************************************/
+
+/*!***************************************************************!*\
+  !*** ./node_modules/html-entities/lib/numeric-unicode-map.js ***!
+  \***************************************************************/
+
+/*!***************************************************************!*\
+  !*** ./node_modules/style-loader/dist/runtime/styleDomAPI.js ***!
+  \***************************************************************/
+
+/*!******************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/slicedToArray.js ***!
+  \******************************************************************/
+
+/*!******************************************************************!*\
+  !*** ./node_modules/webpack-dev-server/client/utils/parseURL.js ***!
+  \******************************************************************/
+
+/*!*******************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/arrayWithHoles.js ***!
+  \*******************************************************************/
+
+/*!*******************************************************************!*\
+  !*** ./node_modules/webpack-dev-server/client/utils/reloadApp.js ***!
+  \*******************************************************************/
+
+/*!********************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/nonIterableRest.js ***!
+  \********************************************************************/
+
+/*!********************************************************************!*\
+  !*** ./node_modules/style-loader/dist/runtime/insertBySelector.js ***!
+  \********************************************************************/
+
+/*!*********************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/arrayLikeToArray.js ***!
+  \*********************************************************************/
+
+/*!*********************************************************************!*\
+  !*** ./node_modules/scheduler/cjs/scheduler-tracing.development.js ***!
+  \*********************************************************************/
+
+/*!*********************************************************************!*\
+  !*** ./node_modules/style-loader/dist/runtime/styleTagTransform.js ***!
+  \*********************************************************************/
+
+/*!*********************************************************************!*\
+  !*** ./node_modules/webpack-dev-server/client/utils/sendMessage.js ***!
+  \*********************************************************************/
+
+/*!**********************************************************************!*\
+  !*** ./node_modules/style-loader/dist/runtime/insertStyleElement.js ***!
+  \**********************************************************************/
+
+/*!************************************************************************!*\
+  !*** ./node_modules/webpack-dev-server/client/modules/logger/index.js ***!
+  \************************************************************************/
+
+/*!*************************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/iterableToArrayLimit.js ***!
+  \*************************************************************************/
+
+/*!*************************************************************************!*\
+  !*** ./node_modules/webpack-dev-server/client/utils/createSocketURL.js ***!
+  \*************************************************************************/
+
+/*!***************************************************************************!*\
+  !*** ./node_modules/webpack-dev-server/client/clients/WebSocketClient.js ***!
+  \***************************************************************************/
+
+/*!****************************************************************************!*\
+  !*** ./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js ***!
+  \****************************************************************************/
+
+/*!****************************************************************************!*\
+  !*** ./node_modules/webpack-dev-server/client/modules/strip-ansi/index.js ***!
+  \****************************************************************************/
+
+/*!*******************************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/unsupportedIterableToArray.js ***!
+  \*******************************************************************************/
+
+/*!********************************************************************************!*\
+  !*** ./node_modules/webpack-dev-server/client/utils/getCurrentScriptSource.js ***!
+  \********************************************************************************/
+
+/*!**********************************************************************************!*\
+  !*** ./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js ***!
+  \**********************************************************************************/
+
+/*!*******************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./src/style.css ***!
+  \*******************************************************************************************************/
+
+/*!********************************************************************************************************************************************!*\
+  !*** ./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=8080&pathname=%2Fws&logging=info&reconnect=10 ***!
+  \********************************************************************************************************************************************/
+
+/*!***************************************************************************************************************************************************************************!*\
+  !*** data:image/svg+xml,%3csvg viewBox=%270 0 16 16%27 fill=%27white%27 xmlns=%27http://www.w3.org/2000/svg%27%3e%3ccircle cx=%278%27 cy=%278%27 r=%273%27/%3e%3c/svg%3e ***!
+  \***************************************************************************************************************************************************************************/
+
+/*!******************************************************************************************************************************************************************************************************************************************************!*\
+  !*** data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 fill=%27none%27 viewBox=%270 0 16 16%27%3e%3cpath stroke=%27white%27 stroke-linecap=%27round%27 stroke-linejoin=%27round%27 stroke-width=%272%27 d=%27M4 8h8%27/%3e%3c/svg%3e ***!
+  \******************************************************************************************************************************************************************************************************************************************************/
+
+/*!******************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 fill=%27none%27 viewBox=%270 0 20 20%27%3e%3cpath stroke=%27%236b7280%27 stroke-linecap=%27round%27 stroke-linejoin=%27round%27 stroke-width=%271.5%27 d=%27M6 8l4 4 4-4%27/%3e%3c/svg%3e ***!
+  \******************************************************************************************************************************************************************************************************************************************************************/
+
+/*!*********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** data:image/svg+xml,%3csvg viewBox=%270 0 16 16%27 fill=%27white%27 xmlns=%27http://www.w3.org/2000/svg%27%3e%3cpath d=%27M12.207 4.793a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0l-2-2a1 1 0 011.414-1.414L6.5 9.086l4.293-4.293a1 1 0 011.414 0z%27/%3e%3c/svg%3e ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************/
