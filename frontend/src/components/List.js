@@ -7,7 +7,7 @@ import { Line, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveCont
 
 export default function List() {
     const [showGraph,setshowGraph] = useState(false)
-    const [ls,setList] = useState([{name: 'test', percentages: '[29.269169534179035, 18.20142776436752, 12.02300857685789, 9.485902110831493, 20.0067793128242, 7.036104976631914, 5.988392994710082, 5.351548456679164, 4.6376662729186995]', column:'pipek'}])
+    const [ls,setList] = useState([{name: "Benford'law", percentages: '[29.269169534179035, 18.20142776436752, 12.02300857685789, 9.485902110831493, 20.0067793128242, 7.036104976631914, 5.988392994710082, 5.351548456679164, 4.6376662729186995]', column:''}])
     const [selected,setSelected] = useState(ls[0]['name'])
 
     
@@ -70,7 +70,7 @@ export default function List() {
             return response.data})
         .then(data =>
             {   
-                let lst = [{name: 'test', percentages: '[29.269169534179035, 18.20142776436752, 12.02300857685789, 9.485902110831493, 20.0067793128242, 7.036104976631914, 5.988392994710082, 5.351548456679164, 4.6376662729186995]', column:'pipek'}]
+                let lst = [{name: "Benford'law", percentages: '[29.269169534179035, 18.20142776436752, 12.02300857685789, 9.485902110831493, 20.0067793128242, 7.036104976631914, 5.988392994710082, 5.351548456679164, 4.6376662729186995]', column:''}]
                 for (const key in data) {
                     lst.push(data[key]);
                 }
