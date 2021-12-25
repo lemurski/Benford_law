@@ -8,3 +8,6 @@ class File(models.Model):
     date = models.DateTimeField(auto_now_add=True)
     percentages = models.CharField(max_length=200,default='')
     column = models.CharField(max_length=50,default='')
+
+    def __str__(self):
+        return self.name + ' - ' + self.column 

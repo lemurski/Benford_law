@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import axios from 'axios';
-import { BarChart,Line, Bar, Cell, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, ComposedChart } from 'recharts';
+import {Line, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, ComposedChart } from 'recharts';
 
 
 export default function Homepage() {
@@ -24,6 +24,8 @@ export default function Homepage() {
 	const changeHandler = (event) => {
 		setSelectedFile(event.target.files[0]);
         setiscolselected(false)
+        setshowGraph(false)
+        setIsFileLoaded(false)
 	};
 
     const logFile = () => {
@@ -31,7 +33,9 @@ export default function Homepage() {
     }
 
     const fetchData = () => {
-        return axios.get('/api/graph')
+        return axios.post('/api/graph', {
+            name : selectedFile.name
+        })
         .then((response) =>{
             return response.data})
         .then(data =>
@@ -179,7 +183,7 @@ export default function Homepage() {
 
             <div className='mx-auto flex flex-col items-center mt-14'>
             
-			<input type="file" id='upfile' className='hidden' name="file" onChange={changeHandler} />
+			<input accept='.csv, .tsv, .dms' type="file" id='upfile' className='hidden' name="file" onChange={changeHandler} />
 			{selectedFile ? ( 
                 
 				<div className='flex text-lg flex-col items-center'>

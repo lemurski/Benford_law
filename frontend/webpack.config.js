@@ -3,7 +3,7 @@ const webpack = require("webpack");
 const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
 module.exports = {
-  mode: 'development',
+  mode: 'production',
   entry: "./src/index.js",
   output: {
     path: path.resolve(__dirname, "./static/frontend"),
@@ -42,7 +42,7 @@ module.exports = {
     new webpack.DefinePlugin({
       "process.env": {
         // This has effect on the react lib size
-        NODE_ENV: JSON.stringify("development"),
+        NODE_ENV: JSON.stringify("production"),
         },
       }),
       new BundleAnalyzerPlugin(),

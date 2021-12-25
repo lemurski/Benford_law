@@ -110,10 +110,11 @@ class DeleteFile(generics.DestroyAPIView):
 
 
 class GetUploadedGraph(APIView):
-    def get(self, request,format=None):
+    def post(self, request,format=None):
         # name = request.data['name']
+        name = request.data['name']
 
-        model = File.objects.filter(name='census_2009b.dms')
+        model = File.objects.filter(name=name)
 
         serializer = ListSerializer(model,many=True)
 
