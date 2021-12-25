@@ -39,9 +39,11 @@
     "@dotlottie/player-component": "^1.0.4",
     "@react-icons/all-files": "^4.1.0",
     "@tailwindcss/forms": "^0.3.4",
+    "axios": "^0.24.0",
     "react-3d-viewer": "^1.0.12",
     "react-icons": "^4.3.1",
     "react-lottie-player": "^1.4.1",
-    "react-router-dom": "^6.0.2"
+    "react-router-dom": "^6.0.2",
+    "recharts": "^2.1.8"
   }
 }

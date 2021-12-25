@@ -13,6 +13,7 @@ body {
     position: relative;
 }
 
+@import "~react-vis/dist/style";
 
 .main {
     width: 100%;
