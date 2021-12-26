@@ -111,8 +111,12 @@ class DeleteFile(generics.DestroyAPIView):
 
 class GetUploadedGraph(APIView):
     def post(self, request,format=None):
-        # name = request.data['name']
+
+        
+        
         name = request.data['name']
+
+        name = name.replace(' ', '_')
 
         model = File.objects.filter(name=name)
 

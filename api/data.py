@@ -24,11 +24,18 @@ def head(file):
 
 def main(file,column):
     import pandas as pd
+    import csv
 
+    with open(file,'r') as data:
+        line = data.readline()
+        while line == '\n':
+            line = data.readline()
 
-    BENFORD = [30.1, 17.6, 12.5, 9.7, 7.9, 6.7, 5.8, 5.1, 4.6]
+    sniffer = csv.Sniffer()
+    dialect = sniffer.sniff(line)
 
-    df = pd.read_table(file,sep="\t")
+    df = pd.read_table(file,sep=dialect.delimiter)
+
     mask = df[column]>1
     data = list(df[mask][column])
     nums=[1,2,3,4,5,6,7,8,9]
